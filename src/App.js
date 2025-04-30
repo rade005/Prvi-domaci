@@ -9,8 +9,12 @@ if(hour >= 21 || hour < 7) {
   background = "Darkblue";
 } 
 
+const divStyle = {
+  backgroundColor: background,
+}
+
   return (
-    <div style={{backgroundColor: background}}>
+    <div style={divStyle}>
       <p>"Pozdrav!"</p>
     </div>
     
